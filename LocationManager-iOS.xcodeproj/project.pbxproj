@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3C31D11E2D09A400EB6CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3C31D01E2D09A400EB6CF4 /* main.m */; };
+		FE3C31D41E2D09A400EB6CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3C31D31E2D09A400EB6CF4 /* AppDelegate.m */; };
+		FE3C31D71E2D09A400EB6CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3C31D61E2D09A400EB6CF4 /* ViewController.m */; };
+		FE3C31DA1E2D09A400EB6CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3C31D81E2D09A400EB6CF4 /* Main.storyboard */; };
+		FE3C31DC1E2D09A400EB6CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3C31DB1E2D09A400EB6CF4 /* Assets.xcassets */; };
+		FE3C31DF1E2D09A400EB6CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3C31DD1E2D09A400EB6CF4 /* LaunchScreen.storyboard */; };
+		FE3C31EA1E2D09A400EB6CF4 /* LocationManager_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3C31E91E2D09A400EB6CF4 /* LocationManager_iOSTests.m */; };
+		FE3C31F51E2D09A400EB6CF4 /* LocationManager_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3C31F41E2D09A400EB6CF4 /* LocationManager_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE3C31E61E2D09A400EB6CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3C31C41E2D09A400EB6CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3C31CB1E2D09A400EB6CF4;
+			remoteInfo = "LocationManager-iOS";
+		};
+		FE3C31F11E2D09A400EB6CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3C31C41E2D09A400EB6CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3C31CB1E2D09A400EB6CF4;
+			remoteInfo = "LocationManager-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE3C31CC1E2D09A400EB6CF4 /* LocationManager-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LocationManager-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3C31D01E2D09A400EB6CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE3C31D21E2D09A400EB6CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE3C31D31E2D09A400EB6CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE3C31D51E2D09A400EB6CF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE3C31D61E2D09A400EB6CF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE3C31D91E2D09A400EB6CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3C31DB1E2D09A400EB6CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3C31DE1E2D09A400EB6CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3C31E01E2D09A400EB6CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3C31E51E2D09A400EB6CF4 /* LocationManager-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocationManager-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3C31E91E2D09A400EB6CF4 /* LocationManager_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager_iOSTests.m; sourceTree = "<group>"; };
+		FE3C31EB1E2D09A400EB6CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3C31F01E2D09A400EB6CF4 /* LocationManager-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocationManager-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3C31F41E2D09A400EB6CF4 /* LocationManager_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager_iOSUITests.m; sourceTree = "<group>"; };
+		FE3C31F61E2D09A400EB6CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3C31C91E2D09A400EB6CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3C31E21E2D09A400EB6CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3C31ED1E2D09A400EB6CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3C31C31E2D09A400EB6CF4 = {
+			isa = PBXGroup;
+			children = (
+				FE3C31CE1E2D09A400EB6CF4 /* LocationManager-iOS */,
+				FE3C31E81E2D09A400EB6CF4 /* LocationManager-iOSTests */,
+				FE3C31F31E2D09A400EB6CF4 /* LocationManager-iOSUITests */,
+				FE3C31CD1E2D09A400EB6CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3C31CD1E2D09A400EB6CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C31CC1E2D09A400EB6CF4 /* LocationManager-iOS.app */,
+				FE3C31E51E2D09A400EB6CF4 /* LocationManager-iOSTests.xctest */,
+				FE3C31F01E2D09A400EB6CF4 /* LocationManager-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3C31CE1E2D09A400EB6CF4 /* LocationManager-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C31D21E2D09A400EB6CF4 /* AppDelegate.h */,
+				FE3C31D31E2D09A400EB6CF4 /* AppDelegate.m */,
+				FE3C31D51E2D09A400EB6CF4 /* ViewController.h */,
+				FE3C31D61E2D09A400EB6CF4 /* ViewController.m */,
+				FE3C31D81E2D09A400EB6CF4 /* Main.storyboard */,
+				FE3C31DB1E2D09A400EB6CF4 /* Assets.xcassets */,
+				FE3C31DD1E2D09A400EB6CF4 /* LaunchScreen.storyboard */,
+				FE3C31E01E2D09A400EB6CF4 /* Info.plist */,
+				FE3C31CF1E2D09A400EB6CF4 /* Supporting Files */,
+			);
+			path = "LocationManager-iOS";
+			sourceTree = "<group>";
+		};
+		FE3C31CF1E2D09A400EB6CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C31D01E2D09A400EB6CF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE3C31E81E2D09A400EB6CF4 /* LocationManager-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C31E91E2D09A400EB6CF4 /* LocationManager_iOSTests.m */,
+				FE3C31EB1E2D09A400EB6CF4 /* Info.plist */,
+			);
+			path = "LocationManager-iOSTests";
+			sourceTree = "<group>";
+		};
+		FE3C31F31E2D09A400EB6CF4 /* LocationManager-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C31F41E2D09A400EB6CF4 /* LocationManager_iOSUITests.m */,
+				FE3C31F61E2D09A400EB6CF4 /* Info.plist */,
+			);
+			path = "LocationManager-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3C31CB1E2D09A400EB6CF4 /* LocationManager-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3C31F91E2D09A400EB6CF4 /* Build configuration list for PBXNativeTarget "LocationManager-iOS" */;
+			buildPhases = (
+				FE3C31C81E2D09A400EB6CF4 /* Sources */,
+				FE3C31C91E2D09A400EB6CF4 /* Frameworks */,
+				FE3C31CA1E2D09A400EB6CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocationManager-iOS";
+			productName = "LocationManager-iOS";
+			productReference = FE3C31CC1E2D09A400EB6CF4 /* LocationManager-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE3C31E41E2D09A400EB6CF4 /* LocationManager-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3C31FC1E2D09A400EB6CF4 /* Build configuration list for PBXNativeTarget "LocationManager-iOSTests" */;
+			buildPhases = (
+				FE3C31E11E2D09A400EB6CF4 /* Sources */,
+				FE3C31E21E2D09A400EB6CF4 /* Frameworks */,
+				FE3C31E31E2D09A400EB6CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3C31E71E2D09A400EB6CF4 /* PBXTargetDependency */,
+			);
+			name = "LocationManager-iOSTests";
+			productName = "LocationManager-iOSTests";
+			productReference = FE3C31E51E2D09A400EB6CF4 /* LocationManager-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE3C31EF1E2D09A400EB6CF4 /* LocationManager-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3C31FF1E2D09A400EB6CF4 /* Build configuration list for PBXNativeTarget "LocationManager-iOSUITests" */;
+			buildPhases = (
+				FE3C31EC1E2D09A400EB6CF4 /* Sources */,
+				FE3C31ED1E2D09A400EB6CF4 /* Frameworks */,
+				FE3C31EE1E2D09A400EB6CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3C31F21E2D09A400EB6CF4 /* PBXTargetDependency */,
+			);
+			name = "LocationManager-iOSUITests";
+			productName = "LocationManager-iOSUITests";
+			productReference = FE3C31F01E2D09A400EB6CF4 /* LocationManager-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3C31C41E2D09A400EB6CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fazhao;
+				TargetAttributes = {
+					FE3C31CB1E2D09A400EB6CF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PQBQY5MFZC;
+						ProvisioningStyle = Automatic;
+					};
+					FE3C31E41E2D09A400EB6CF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PQBQY5MFZC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE3C31CB1E2D09A400EB6CF4;
+					};
+					FE3C31EF1E2D09A400EB6CF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PQBQY5MFZC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE3C31CB1E2D09A400EB6CF4;
+					};
+				};
+			};
+			buildConfigurationList = FE3C31C71E2D09A400EB6CF4 /* Build configuration list for PBXProject "LocationManager-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3C31C31E2D09A400EB6CF4;
+			productRefGroup = FE3C31CD1E2D09A400EB6CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3C31CB1E2D09A400EB6CF4 /* LocationManager-iOS */,
+				FE3C31E41E2D09A400EB6CF4 /* LocationManager-iOSTests */,
+				FE3C31EF1E2D09A400EB6CF4 /* LocationManager-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3C31CA1E2D09A400EB6CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3C31DF1E2D09A400EB6CF4 /* LaunchScreen.storyboard in Resources */,
+				FE3C31DC1E2D09A400EB6CF4 /* Assets.xcassets in Resources */,
+				FE3C31DA1E2D09A400EB6CF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3C31E31E2D09A400EB6CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3C31EE1E2D09A400EB6CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3C31C81E2D09A400EB6CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3C31D71E2D09A400EB6CF4 /* ViewController.m in Sources */,
+				FE3C31D41E2D09A400EB6CF4 /* AppDelegate.m in Sources */,
+				FE3C31D11E2D09A400EB6CF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3C31E11E2D09A400EB6CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3C31EA1E2D09A400EB6CF4 /* LocationManager_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3C31EC1E2D09A400EB6CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3C31F51E2D09A400EB6CF4 /* LocationManager_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE3C31E71E2D09A400EB6CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3C31CB1E2D09A400EB6CF4 /* LocationManager-iOS */;
+			targetProxy = FE3C31E61E2D09A400EB6CF4 /* PBXContainerItemProxy */;
+		};
+		FE3C31F21E2D09A400EB6CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3C31CB1E2D09A400EB6CF4 /* LocationManager-iOS */;
+			targetProxy = FE3C31F11E2D09A400EB6CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE3C31D81E2D09A400EB6CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3C31D91E2D09A400EB6CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3C31DD1E2D09A400EB6CF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3C31DE1E2D09A400EB6CF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3C31F71E2D09A400EB6CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3C31F81E2D09A400EB6CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3C31FA1E2D09A400EB6CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PQBQY5MFZC;
+				INFOPLIST_FILE = "LocationManager-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fazhao.LocationManager-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE3C31FB1E2D09A400EB6CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PQBQY5MFZC;
+				INFOPLIST_FILE = "LocationManager-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fazhao.LocationManager-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE3C31FD1E2D09A400EB6CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PQBQY5MFZC;
+				INFOPLIST_FILE = "LocationManager-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fazhao.LocationManager-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationManager-iOS.app/LocationManager-iOS";
+			};
+			name = Debug;
+		};
+		FE3C31FE1E2D09A400EB6CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PQBQY5MFZC;
+				INFOPLIST_FILE = "LocationManager-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fazhao.LocationManager-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationManager-iOS.app/LocationManager-iOS";
+			};
+			name = Release;
+		};
+		FE3C32001E2D09A400EB6CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PQBQY5MFZC;
+				INFOPLIST_FILE = "LocationManager-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fazhao.LocationManager-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LocationManager-iOS";
+			};
+			name = Debug;
+		};
+		FE3C32011E2D09A400EB6CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PQBQY5MFZC;
+				INFOPLIST_FILE = "LocationManager-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fazhao.LocationManager-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LocationManager-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3C31C71E2D09A400EB6CF4 /* Build configuration list for PBXProject "LocationManager-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3C31F71E2D09A400EB6CF4 /* Debug */,
+				FE3C31F81E2D09A400EB6CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3C31F91E2D09A400EB6CF4 /* Build configuration list for PBXNativeTarget "LocationManager-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3C31FA1E2D09A400EB6CF4 /* Debug */,
+				FE3C31FB1E2D09A400EB6CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE3C31FC1E2D09A400EB6CF4 /* Build configuration list for PBXNativeTarget "LocationManager-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3C31FD1E2D09A400EB6CF4 /* Debug */,
+				FE3C31FE1E2D09A400EB6CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE3C31FF1E2D09A400EB6CF4 /* Build configuration list for PBXNativeTarget "LocationManager-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3C32001E2D09A400EB6CF4 /* Debug */,
+				FE3C32011E2D09A400EB6CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3C31C41E2D09A400EB6CF4 /* Project object */;
+}
