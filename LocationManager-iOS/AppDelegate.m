@@ -15,10 +15,62 @@
 @implementation AppDelegate
 
 
+
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import "RootViewController.h"
+
+BMKMapManager* _mapManager;
+@implementation AppDelegate
+
+@synthesize window;
+@synthesize navigationController;
+
+
+#pragma mark -
+#pragma mark Application lifecycle
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // 要使用百度地图，请先启动BaiduMapManager
+    _mapManager = [[BMKMapManager alloc]init];
+    BOOL ret = [_mapManager start:@"OD0ISQyQyLNx4EBh2yAycdaPSWG3pVaX" generalDelegate:self];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
+
+    [self.window setRootViewController:navigationController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (void)onGetNetworkState:(int)iError
+{
+    if (0 == iError) {
+        NSLog(@"联网成功");
+    }
+    else{
+        NSLog(@"onGetNetworkState %d",iError);
+    }
+
+}
+
+- (void)onGetPermissionState:(int)iError
+{
+    if (0 == iError) {
+        NSLog(@"授权成功");
+    }
+    else {
+        NSLog(@"onGetPermissionState %d",iError);
+    }
+}
+
+@end
+
+
+//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    // Override point for customization after application launch.
+//    return YES;
+//}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
